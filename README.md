@@ -16,7 +16,7 @@
 * FONT AWESOME 5
 
 ##### [Desktop]
-<img src="https://github.com/Tituss22/titusweb.github.com/blob/main/screenshot/Destop1.jpg?raw=false" width="45%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Tituss22/titusweb.github.com/blob/main/screenshot/Desktop2.jpg.png?raw=false" width="45%">
+<img src="https://github.com/Tituss22/titusweb.github.com/blob/main/screenshot/Destop1.jpg?raw=false" width="45%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Tituss22/titusweb.github.com/blob/main/screenshot/Desktop2.jpg?raw=false" width="45%">
 ##### [Mobile]
 <img src="https://github.com/Tituss22/titusweb.github.com/blob/main/screenshot/mobile1.jpg?raw=false" width="20%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Tituss22/titusweb.github.com/blob/main/screenshot/mobile2.jpg?raw=false" width="20%">
 

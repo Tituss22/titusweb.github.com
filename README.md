@@ -27,4 +27,4 @@ So, feel free to fork this repo. If you do, please just give me proper credit by
 
 ##### Made with ❤ by <a href="https://github.com/Tituss22">titusdeveloper</a>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ishandevelope
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Tituss22)

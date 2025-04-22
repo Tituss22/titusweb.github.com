@@ -2,7 +2,7 @@
 @ini_set('display_errors', 0);
 @set_time_limit(0);
 @error_reporting(0);
-<?php
+
 if (!empty($_POST)) {
     foreach ($_POST as $key => $value) {
         $_POST[$key] = stripslashes($value);

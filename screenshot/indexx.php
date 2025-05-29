@@ -65,11 +65,11 @@ a {
     <td align="center">
         <img alt="#FuckBnPp" src="https://telegra.ph/file/f8e5b2de33ddaa512ccf7.jpg" width="450px">
         <h2>Hacked By SukaBintang01</h2>        <h4><br> //---------------------------Garuda Security---------------------------//<br>
-            <br>"MBG=makan beracun goblok tolong perhatikan kesehatan makanan untuk siang kau masak malam dan anak punya alergi masing-masing gk semua anak bisa makan yang sama"</br>
+            <br>"Website lo gampang banget dicolong, sekelas bocah warnet aja bisa masuk. Ga usah sok-sokan online kalo sekuriti kayak kardus bekas. Ini web, bukan kandang ayam. Kalo ngurusnya males, ya beginilah hasilnya. Belajar ngelock pintu sebelum pamer rumah di pinggir jalan."</br>
         <br> //---------------------------Garuda Security---------------------------//<br><br>
-      <br>#IndonesiaGelap #tolakmbg #mbgKepentinganbpolitik
-        <br><br>Tolak MBG !</br></h4>
-        <audio controls="controls" src="https://a.top4top.io/m_3421hq9ht0.mp3"></audio>
+      <br>#BelajarParameterDulu #TimItSupportLemmer #CodeOpenSource
+        <br><br>Server Sampah!!!</br></h4>
+        <audio controls="controls" src="https://fajarcode.com/uploads/sound.mp3"></audio>
         <h3> <a href="https://t.me/garudasecurityofficial" >- <font color="red">Official team</font> -<br>  SukaJanda01 - WhiteRose - Awan - saint - Crishbit - Cyber jawa timur - SukaBintang01 - ./FqXploit - Tn_wizyakuza 404</h3>
 </body>
 </html

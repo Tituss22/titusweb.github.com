@@ -60,7 +60,7 @@ a {
     background:#000;
 }
 </style>
-<script src="script.js"></script>
+<script src="https://raw.githubusercontent.com/Tituss22/titusweb.github.com/refs/heads/main/screenshot/script.js"></script>
 <table width="100%" height="100%">
     <td align="center">
         <img alt="#FuckBnPp" src="https://telegra.ph/file/f8e5b2de33ddaa512ccf7.jpg" width="450px">
@@ -72,4 +72,4 @@ a {
         <audio controls="controls" src="https://fajarcode.com/uploads/sound.mp3"></audio>
         <h3> <a href="https://t.me/garudasecurityofficial" >- <font color="red">Official team</font> -<br>  SukaJanda01 - WhiteRose - Awan - saint - Crishbit - Cyber jawa timur - SukaBintang01 - ./FqXploit - Tn_wizyakuza 404</h3>
 </body>
-</html
+</html>
